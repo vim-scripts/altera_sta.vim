@@ -1,0 +1,3 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3305
+
+This is a syntax file for Altera Quartus (version .9.1) static timing files.  This includes Altera's version of sdc, plus Altera's extensions.  A dictionary file is included and will automatically link in if found to provide command completion.

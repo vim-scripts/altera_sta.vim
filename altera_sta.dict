@@ -1,0 +1,546 @@
+
+" Vim dictionary file "
+
+" Language:	Altera-TCL/SDC "
+" Maintainer:	Paul Zimmer <paulzimmer@zimmerdesignservices.com> "
+" Original:	Paul Zimmer <paulzimmer@zimmerdesignservices.com> "
+" Version:	11.61 Sun Oct 17 14:30:15 PDT 2010 "
+" "
+" "
+
+
+" Attributes "
+
+" Built-in Variables "
+
+" Commands "
+add_cmd_to_tcl_table_menu 
+add_ddr_report_command 
+add_row_to_table  -h -help -id -long_help -name
+add_timing_summary_data 
+add_to_collection  -h -help -long_help
+add_to_recent_projects 
+add_to_recent_projects_internal 
+after 
+all_clocks  -h -help -long_help boolean float int list merge_duplicates one_of_string optional remainder required string value_help values
+all_inputs  -h -help -long_help
+all_outputs  -h -help -long_help
+all_registers  -h -help -long_help
+append 
+apply 
+array anymore donesearch exists get names nextelement set size startsearch statistics unset
+assignment_group  -add_exception -add_member -comment -disable -get_exceptions -get_members -h -help -long_help -overwrite -remove -remove_exception -remove_member -tag
+auto_execok 
+auto_import 
+auto_load 
+auto_load_index 
+auto_mkindex 
+auto_mkindex_old 
+auto_qualify 
+auto_reset 
+binary 
+break 
+build_tcl_table_cmd 
+case 
+catch 
+cd 
+chan 
+check_timing  -append -file -h -help -include -long_help -panel_name -stdout
+checksum  -algorithm -h -help -long_help
+clock 
+close 
+close_timing_report 
+concat 
+continue 
+copy_project 
+copy_project_for_hardcopy 
+create_clock  -add -h -help -long_help -name -period -waveform
+create_generated_clock  -add -divide_by -duty_cycle -edge_shift -edges -h -help -invert -long_help -master_clock -multiply_by -name -offset -phase -source
+create_pin_object 
+create_report_histogram  -color_div -color_list -h -help -long_help -max_data -min_data -num_bins -panel_name -x_label -x_unit -y_label
+create_report_panel  -folder -h -help -long_help -table
+create_revision  -based_on -copy_results -h -help -long_help -set_current
+create_slack_histogram  -append -clock_name -file -h -help -hold -long_help -max_slack -min_slack -num_bins -panel_name -recovery -removal -setup -stdout
+create_test_collection 
+create_timequest_summary 
+create_timing_database 
+create_timing_netlist  -force_dat -grade -h -help -long_help -model -no_latch -post_map -speed -temperature -voltage -zero_ic_delays
+create_timing_summary  -append -file -h -help -hold -long_help -mpw -panel_name -recovery -removal -setup -stdout
+current_design 
+current_instance 
+define_proc_attributes boolean float int list merge_duplicates one_of_string optional remainder required string value_help values
+delete_folder 
+delete_report_panel  -h -help -id -long_help -name
+delete_revision  -h -help -long_help
+delete_timing_netlist  -h -help -long_help
+delete_timing_report_panel 
+derive_clock_uncertainty  -add -h -help -long_help -overwrite
+derive_clocks  -h -help -long_help -period -waveform
+derive_lvds_clocks 
+derive_pll_clocks  -create_base_clocks -h -help -long_help -use_tan_name
+destroy_pin_object 
+dict 
+disable_msg_box 
+disable_natural_bus_naming  -h -help -long_help
+disable_natural_bus_naming_internal 
+echo_time 
+else 
+elseif 
+enable_ccpp_removal  -depth -h -help -long_help -off -on
+enable_msg_box 
+enable_natural_bus_naming  -h -help -long_help
+enable_natural_bus_naming_internal 
+enable_sdc_extension_collections  -h -help -long_help -off -on
+encoding 
+enumerate_family_traits 
+eof 
+error 
+escape_brackets  -h -help -long_help
+escape_brackets_internal 
+eval 
+exec 
+execute_assignment_batch  -h -help -long_help
+exit 
+export_assignment_files 
+export_assignments  -h -help -long_help -reorganize
+expr abs acos asin atan atan2 ceil cos cosh double exp floor fmod hypot int log log10 pow round sin sinh sqrt tan tanh
+fblocked 
+fconfigure 
+fcopy 
+file  -force atime attributes channels copy delete dirname executable exists extension isdirectory isfile join link lstat mkdir mtime nativename normalize owned pathtype readable readlink rename rootname separator size split stat system tail type volumes writable
+fileevent 
+find_intersection 
+flush 
+for 
+foreach 
+foreach_in_collection 
+format 
+get_acf_info 
+get_acf_manager 
+get_all_assignment_names  -family -h -help -long_help -module -type
+get_all_assignments  -entity -from -h -help -long_help -name -section_id -tag -to -type
+get_all_global_assignments  -entity -h -help -long_help -name -section_id -tag
+get_all_instance_assignments  -entity -from -h -help -long_help -name -section_id -tag -to
+get_all_parameters  -entity -h -help -long_help -name -tag -to
+get_all_quartus_defaults  -h -help -long_help -name -section_id
+get_all_user_option_names  -h -help -long_help -name
+get_assignment_groups  -h -help -keepers -long_help -ports -registers
+get_assignment_info  -entity -from -get_tcl_command -h -help -long_help -name -section_id -tag -to -value
+get_assignment_name_info  -h -help -long_help
+get_assignments_for_name_id 
+get_available_operating_conditions  -all -h -help -long_help
+get_bit_settings 
+get_board_model_parameter 
+get_board_model_parameter_list 
+get_cell_info  -buried_nodes -buried_regs -h -help -in_pin_names -in_pins -location -long_help -name -out_pin_names -out_pins -pin_names -pins -type -wysiwyg_type
+get_cells  -compatibility_mode -h -help -hierarchical -long_help -no_duplicates -nocase -nowarn
+get_clock_domain_info  -h -help -hold -long_help -mpw -recovery -removal -setup
+get_clock_fmax_info  -h -help -long_help
+get_clock_info  -divide_by -duty_cycle -edge_shifts -edges -fall -h -help -is_inverted -latency -long_help -master_clock -master_clock_pin -max -min -multiply_by -name -nreg_neg -nreg_pos -offset -period -phase -rise -targets -type -waveform
+get_clock_list 
+get_clocks  -h -help -long_help -nocase -nowarn
+get_collection_by_name 
+get_collection_info 
+get_collection_size  -h -help -long_help
+get_current_revision  -h -help -long_help
+get_current_sta_report_folder 
+get_current_strength 
+get_current_strength_list 
+get_current_timequest_report_folder 
+get_datasheet  -h -help -long_help
+get_datasheet_report_panel_name 
+get_default_sdc_file_names  -h -help -long_help
+get_delay_chain 
+get_delay_info 
+get_dq_width 
+get_dstr_string 
+get_edge_info  -delay -delay_type -dst -ff -fr -h -help -long_help -max -min -name -rf -rr -src -type -unateness
+get_edge_slacks  -h -help -hold -long_help -recovery -removal -setup
+get_environment_info  -h -help -long_help -num_logical_processors -num_physical_processors -operating_system
+get_family_info 
+get_family_list  -h -help -long_help
+get_fanins  -asynch -clock -h -help -inverting_paths -long_help -no_logic -non_inverting_paths -synch -through
+get_fanouts  -h -help -inverting_paths -long_help -no_logic -non_inverting_paths -through
+get_file_info 
+get_files 
+get_fitter_resource_usage  -alm -alut -available -h -help -io_pin -lab -le -long_help -mem_bit -percentage -reg -used -utilization
+get_global_assignment  -entity -front -h -help -long_help -name -section_id -tag
+get_ini_file 
+get_ini_var 
+get_input_timing_results 
+get_instance_assignment  -entity -from -front -h -help -long_help -name -section_id -tag -to
+get_io_standard 
+get_io_standard_list 
+get_keepers  -h -help -long_help -no_duplicates -nocase -nowarn
+get_lib_cells 
+get_lib_pins 
+get_libraries 
+get_libs 
+get_license_xml 
+get_location 
+get_location_assignment  -h -help -long_help -tag -to
+get_max_skew_default_include_list 
+get_min_pulse_width  -h -help -long_help -nworst
+get_name_info  -h -help -info -long_help -observable_type
+get_names  -entity -filter -h -help -library -long_help -node_type -observable_type
+get_net_info  -h -help -long_help -name -pin -type
+get_nets  -h -help -long_help -no_duplicates -nocase -nowarn
+get_node_clock_list 
+get_node_info  -asynch_edges -cell -clock_edges -fanout_edges -h -help -location -long_help -name -synch_edges -type
+get_nodes  -h -help -long_help -no_duplicates -nocase -nowarn
+get_number_of_columns  -h -help -id -long_help -name
+get_number_of_rows  -h -help -id -long_help -name
+get_object_info  -h -help -long_help -name -type
+get_oct_impedance 
+get_oct_impedance_list 
+get_open_drain 
+get_operating_conditions  -h -help -long_help
+get_operating_conditions_info  -display_name -grade -h -help -long_help -model -name -speed -temperature -voltage
+get_output_enable_results 
+get_parameter  -entity -h -help -long_help -name -tag -to
+get_part_info  -default_voltage -device -family -family_variant -h -help -long_help -package -pin_count -speed_grade -temperature_grade
+get_part_list  -device -family -h -help -long_help -package -pin_count -speed_grade
+get_partition_info  -child -h -help -long_help -name -parent -type
+get_partitions  -cell -h -help -hierarchical -long_help -nocase
+get_path  -from -h -help -long_help -min_path -npaths -nworst -pairs_only -show_routing -through -to
+get_path_info  -arrival_points -arrival_time -ccpp -clock_relationship -clock_skew -data_delay -from -from_clock -from_clock_is_inverted -h -help -hold_end_multicycle -hold_start_multicycle -latch_time -launch_time -long_help -num_logic_levels -required_points -required_time -setup_end_multicycle -setup_start_multicycle -slack -to -to_clock -to_clock_is_inverted -type
+get_pin_count 
+get_pin_direction 
+get_pin_info  -h -help -is_clock_pin -is_in_pin -is_out_pin -long_help -name -net -parent_cell -suffix -type
+get_pin_location 
+get_pin_location_list 
+get_pin_name 
+get_pins  -compatibility_mode -h -help -hierarchical -long_help -no_duplicates -nocase -nowarn
+get_pins_from_gid 
+get_point_info  -edge -h -help -incremental_delay -location -long_help -node -number_of_fanout -rise_fall -total_delay -type
+get_port_info  -edge_rate -h -help -is_inout_port -is_input_port -is_output_port -long_help -name -type
+get_ports  -h -help -long_help -nocase -nowarn
+get_preemphasis 
+get_project_directory  -h -help -long_help
+get_project_license_status 
+get_project_revisions  -h -help -long_help
+get_project_settings 
+get_quartus_legal_string 
+get_ram_bus_hold 
+get_register_info  -asynch_edges -clock_edges -fanout_edges -h -help -is_latch -long_help -name -synch_edges -tch -tcl -tco -th -tmin -tsu -type
+get_registers  -h -help -long_help -no_duplicates -nocase -nowarn
+get_report_folder 
+get_report_panel_column_index  -h -help -id -long_help -name
+get_report_panel_data  -col -col_name -h -help -id -long_help -name -row -row_name
+get_report_panel_id  -h -help -long_help
+get_report_panel_names  -h -help -long_help
+get_report_panel_row  -h -help -id -long_help -name -row -row_name
+get_report_panel_row_index  -h -help -id -long_help -name
+get_reserved_type 
+get_revision_description 
+get_simulation_results 
+get_slack_information_for_partitions 
+get_slew_rate 
+get_temperature_option 
+get_termination 
+get_timing_analysis_summary_results  -actual -clock_hold -clock_setup -h -help -long_help -min_tco -min_tpd -required -slack -tco -th -tpd -tsu
+get_timing_info 
+get_timing_paths  -detail -fall_from_clock -fall_to_clock -false_path -from -from_clock -h -help -hold -less_than_slack -long_help -npaths -nworst -pairs_only -recovery -removal -rise_from_clock -rise_to_clock -setup -show_routing -through -to -to_clock
+get_top_level_entity  -h -help -long_help
+get_user_option  -h -help -long_help -name
+get_vod 
+get_weak_pullup 
+gets 
+glob 
+global 
+help 
+highlight_report 
+if 
+import_assignments 
+incr 
+info args body cmdcount commands complete default exists globals hostname level library loaded locals nameofexecutable patchlevel procs script sharedlibextension tclversion vars
+init_tk  -h -help -long_help
+initialize_ioo 
+initialize_sin 
+interp 
+is_dq_signal 
+is_dqs_signal 
+is_project_open  -h -help -long_help
+is_report_loaded 
+join 
+lappend 
+lassign 
+lindex 
+linsert 
+list 
+llength 
+load  -h -help -long_help
+load_database 
+load_package  -h -help -long_help -version
+load_report  -h -help -long_help -simulator
+locate  -chip -color -cps -h -help -label -long_help -rpe -tmv
+lrange 
+lrepeat 
+lreplace 
+lreverse 
+lsearch 
+lset 
+lsort  -ascii -command -decreasing -dictionary -increasing -index -integer -real -unique
+msg_tcl_disable_msg_box 
+msg_tcl_enable_eda_socket 
+msg_tcl_enable_msg_box 
+msg_tcl_flush_stdout 
+msg_tcl_internal_error 
+msg_tcl_internal_error_display 
+msg_tcl_post_display 
+msg_tcl_post_display_and_delete 
+msg_tcl_post_message 
+msg_tcl_post_message_handle 
+msg_tcl_prompt_display 
+msg_tcl_puts 
+msg_vdebug 
+namespace 
+native_puts 
+non_sdc_in_sdc_file 
+open 
+open_timing_report 
+package  forget ifneeded names present provide require unknown vcompare versions vsatisfies
+pid 
+postMessage 
+post_message  -h -help -long_help -type
+proc 
+project_archive  -all_revisions -h -help -include_libraries -include_outputs -long_help -overwrite -use_file_set -version_compatible_database
+project_close  -dont_export_assignments -h -help -long_help
+project_exists  -h -help -long_help
+project_new  -family -h -help -long_help -overwrite -part -revision
+project_open  -current_revision -force -h -help -long_help -revision
+project_restore  -destination -h -help -long_help -overwrite -update_included_file_info
+project_settings_exist 
+puts 
+pwd 
+qeval 
+qexec  -h -help -long_help
+qexit  -error -h -help -long_help -success
+qputs 
+qsta_stamp_generate_arc_name 
+qsta_write_stamp 
+query_collection  -all -h -help -limit -list_format -long_help -report_format
+queue_simulation 
+read 
+read_large_file 
+read_sdc  -h -hdl -help -long_help
+read_timing_netlist 
+read_xml_report  -h -help -long_help
+regexp 
+register_tb_path 
+regsub 
+remove_all_global_assignments  -entity -h -help -long_help -name -section_id -tag
+remove_all_instance_assignments  -entity -from -h -help -long_help -name -section_id -tag -to
+remove_all_parameters  -entity -h -help -long_help -name -tag -to
+remove_annotated_delay  -all -h -help -long_help
+remove_clock  -all -h -help -long_help
+remove_clock_groups  -all -h -help -long_help
+remove_clock_latency  -h -help -long_help -source
+remove_clock_uncertainty  -from -h -help -long_help -to
+remove_disable_timing  -from -h -help -long_help -to
+remove_from_collection  -h -help -long_help
+remove_input_delay  -h -help -long_help
+remove_output_delay  -h -help -long_help
+rename 
+rename_timing_report_panel 
+report_advanced_io_power_for_pin 
+report_advanced_io_timing  -append -file -h -help -long_help -panel_name -stdout
+report_advanced_io_timing_for_pin 
+report_bottleneck  -cmetric -details -h -help -long_help -metric -nworst -panel_name -stdout
+report_bottleneck_internal 
+report_bottleneck_num_fanins_metric 
+report_bottleneck_num_fanouts_metric 
+report_bottleneck_num_fpaths_metric 
+report_bottleneck_num_paths_metric 
+report_bottleneck_test_metric 
+report_bottleneck_tns_metric 
+report_clock_fmax_summary  -append -file -h -help -long_help -panel_name -stdout
+report_clock_relationship 
+report_clock_transfers  -append -file -h -help -hold -long_help -panel_name -recovery -removal -setup -stdout
+report_clocks  -append -desc -file -h -help -long_help -panel_name -stdout -summary -waveform
+report_datasheet  -append -expand_bus -file -h -help -long_help -panel_name -stdout
+report_ddr  -append -file -h -help -long_help -panel_name -stdout
+report_device_info  -h -help -long_help
+report_exceptions  -append -detail -fall_from_clock -fall_to_clock -file -from -from_clock -h -help -hold -less_than_slack -long_help -npaths -nworst -pairs_only -panel_name -recovery -removal -rise_from_clock -rise_to_clock -setup -stdout -through -to -to_clock
+report_family_info  -h -help -long_help
+report_fatal_talkback_error 
+report_max_skew  -append -detail -file -h -help -less_than_slack -long_help -npaths -panel_name -show_routing -stdout
+report_metastability  -append -file -h -help -long_help -panel_name -stdout
+report_min_pulse_width  -append -detail -file -h -help -long_help -nworst -panel_name -stdout
+report_net_delay  -append -file -h -help -long_help -nworst -panel_name -stdout
+report_net_timing  -append -file -h -help -long_help -nworst_delay -nworst_fanout -panel_name -stdout
+report_part_info  -h -help -long_help
+report_partitions  -h -help -long_help -nworst -panel_name -stdout
+report_partitions_internal 
+report_path  -append -file -from -h -help -long_help -min_path -npaths -nworst -pairs_only -panel_name -show_routing -stdout -summary -through -to
+report_rskm  -append -file -h -help -long_help -panel_name -stdout
+report_sdc  -append -file -h -help -ignored -long_help -panel_name -stdout
+report_skew  -append -detail -exclude -fall_from_clock -fall_to_clock -file -from -from_clock -greater_than_skew -h -help -include -long_help -npaths -panel_name -rise_from_clock -rise_to_clock -show_routing -stdout -through -to -to_clock
+report_tccs  -append -file -h -help -long_help -panel_name -stdout
+report_timing  -append -detail -fall_from_clock -fall_to_clock -false_path -file -from -from_clock -h -help -hold -less_than_slack -long_help -npaths -nworst -pairs_only -panel_name -recovery -removal -rise_from_clock -rise_to_clock -setup -show_routing -stdout -through -to -to_clock
+report_ucp  -append -file -h -help -long_help -panel_name -stdout -summary
+reset_design  -h -help -long_help
+reset_timing_derate  -h -help -long_help
+resolve_file_path  -h -help -long_help
+return 
+revision_exists  -h -help -long_help -project
+revision_exists_internal 
+run_simulations 
+save_report_database  -h -help -long_help
+scan 
+seek 
+set 
+set_acf_manager 
+set_active_clocks  -h -help -long_help
+set_annotated_delay  -cell -ff -fr -from -h -help -long_help -max -min -net -operating_conditions -rf -rr -to
+set_bit_settings 
+set_board_model_parameter 
+set_case_analysis 
+set_clock_gating_check 
+set_clock_groups  -asynchronous -exclusive -group -h -help -long_help
+set_clock_latency  -clock -early -fall -h -help -late -long_help -rise -source
+set_clock_transition 
+set_clock_uncertainty  -add -fall_from -fall_to -from -h -help -hold -long_help -rise_from -rise_to -setup -to
+set_current_revision  -force -h -help -long_help
+set_current_strength 
+set_data_check 
+set_decimal_places 
+set_delay_chain 
+set_device 
+set_disable_timing  -from -h -help -long_help -to
+set_dll_loading 
+set_drive 
+set_drive_strength 
+set_driving_cell 
+set_false_path  -fall_from -fall_to -from -h -help -hold -long_help -rise_from -rise_to -setup -through -to
+set_fanout_load 
+set_file_lock 
+set_global_assignment  -comment -disable -entity -h -help -long_help -name -remove -section_id -tag
+set_hc_assignments 
+set_hierarchy_separator 
+set_hssi_pin 
+set_hssi_preemphasis_pretap 
+set_hssi_preemphasis_tap1 
+set_hssi_preemphasis_tap2 
+set_hssi_protocol 
+set_hssi_rx_common_mode 
+set_hssi_rx_dc_gain_setting 
+set_hssi_rx_equalizer_setting 
+set_hssi_slew_rate 
+set_hssi_tx_common_mode 
+set_hssi_vod 
+set_ini_var 
+set_input_delay  -add_delay -clock -clock_fall -fall -h -help -long_help -max -min -reference_pin -rise -source_latency_included
+set_input_oct_impedance 
+set_input_transition  -clock -clock_fall -fall -h -help -long_help -max -min -rise
+set_input_transition_time 
+set_instance_assignment  -comment -disable -entity -fall -from -h -help -long_help -name -remove -rise -section_id -tag -to
+set_io_assignment  -comment -disable -h -help -io_standard -long_help -name -remove -tag
+set_io_standard 
+set_load 
+set_location 
+set_location_assignment  -comment -disable -h -help -long_help -remove -tag -to
+set_logic_dc 
+set_logic_one 
+set_logic_zero 
+set_max_area 
+set_max_capacitance 
+set_max_delay  -fall_from -fall_to -from -h -help -long_help -rise_from -rise_to -through -to
+set_max_dynamic_power 
+set_max_fanout 
+set_max_leakage_power 
+set_max_skew  -exclude -fall_from_clock -fall_to_clock -from -from_clock -h -help -include -long_help -rise_from_clock -rise_to_clock -through -to -to_clock
+set_max_time_borrow 
+set_max_transition 
+set_min_capacitance 
+set_min_delay  -fall_from -fall_to -from -h -help -long_help -rise_from -rise_to -through -to
+set_min_porosity 
+set_multicycle_path  -end -fall_from -fall_to -from -h -help -hold -long_help -rise_from -rise_to -setup -start -through -to
+set_net_delay  -from -h -help -long_help -max -min -to
+set_oct_impedance 
+set_open_drain 
+set_operating_conditions  -force_dat -grade -h -help -long_help -model -speed -temperature -voltage
+set_output_delay  -add_delay -clock -clock_fall -fall -h -help -long_help -max -min -reference_pin -rise -source_latency_included
+set_output_oct_impedance 
+set_parameter  -comment -disable -entity -h -help -long_help -name -remove -tag -to
+set_pin_direction 
+set_pin_location 
+set_pin_name 
+set_port_fanout_number 
+set_power_file_assignment  -h -help -long_help -remove -saf_file -section_id -to -vcd_end_time -vcd_file -vcd_start_time
+set_preemphasis 
+set_project_mode 
+set_project_settings 
+set_propagated_clock 
+set_qsf_mode 
+set_quartus_array 
+set_ram_bus_hold 
+set_resistance 
+set_revision_description 
+set_scc_mode  -h -help -long_help -size -use_heuristic
+set_slew_rate 
+set_tco_requirement 
+set_termination 
+set_th_requirement 
+set_time_format  -decimal_places -h -help -long_help -unit
+set_time_unit 
+set_timing_derate  -cell_delay -early -h -help -late -long_help -net_delay -operating_conditions
+set_timing_report_folder 
+set_tpd_requirement 
+set_tsu_requirement 
+set_user_option  -h -help -long_help -name
+set_vod 
+set_weak_pullup 
+set_wire_load_min_block_size 
+set_wire_load_mode 
+set_wire_load_model 
+set_wire_selection_group 
+sh 
+socket 
+source 
+split 
+stopwatch  -h -help -lap_time -long_help -number_format -reset -start
+string  bytelength compare equal first index is last length map match range repeat replace tolower totitle toupper trim trimleft trimright wordend wordstart
+subst 
+switch  -exact -glob -regexp
+tclLog 
+tcl_findLibrary 
+tell 
+test_assignment_trait  -h -help -long_help -name -trait
+test_device_trait_of 
+test_family_trait_of 
+test_part_trait_of 
+then 
+time 
+timing_netlist_exist  -h -help -long_help
+trace 
+uninitialize_ioo 
+uninitialize_sin 
+unknown 
+unknown_original 
+unload 
+unload_database 
+unload_report  -h -help -long_help
+unset 
+update 
+update_timing_netlist  -full -h -help -long_help
+uplevel 
+upvar 
+use_timequest_style_escaping  -h -help -long_help -off -on
+variable 
+vwait 
+webhelp_display_topic 
+while 
+write_partition_edge_slack_stats 
+write_report_panel  -file -h -help -html -id -long_help -name -xml
+write_sdc  -expand -h -help -history -long_help
+write_timing_netlist 
+write_timing_report 
+write_xml_report  -h -help -long_help
+xibiso_add_model 
+xibiso_get_header 
+xibiso_get_model 
+xibiso_get_model_name 
+xibiso_init 
+xibiso_init_header 
+xibiso_read_model 
